@@ -6,3 +6,6 @@ Audio commands
 
     ffmpeg -i stereo.wav -map_channel 0.0.0 left.wav -map_channel 0.0.1 right.wav
 
+# Normalize an audio file, because you suck at recording sound:
+
+    normalize-audio myfile.wav
