@@ -17,3 +17,9 @@ Combine a video file with an audio file.
 Take a video file with a weird audio format and convert the audio to PCM
 
 ffmpeg -i video.webm -c:v copy -c:a pcm_s16le output.mkv
+
+Take a big, high quality video file and convert it to a smaller but lower quality file:
+
+    ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
+
+(the crf is the quality, lower is higher quality, try 24-30)
