@@ -1,3 +1,9 @@
+/* Code to write a simple prores 4444 file.
+   Took me a while to figure out how to do it so thought I'd share it.
+   Don't treat this as "reference code", because I don't really know what I'm
+   doing. However it does seem to work, here anyway.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
